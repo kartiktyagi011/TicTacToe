@@ -1,0 +1,93 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 816,
+      "layout": {
+        "type": "dock-h",
+        "children": [
+          {
+            "width": 392.8500061035156,
+            "height": 700.2000122070312,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 392.8500061035156,
+                "height": 348.0874938964844,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ]
+              },
+              {
+                "width": 392.8500061035156,
+                "height": 349.1000061035156,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "assets"
+                ]
+              }
+            ]
+          },
+          {
+            "width": 757.7000122070312,
+            "height": 700.2000122070312,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 757.7000122070312,
+                "height": 350.6000061035156,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "scene"
+                ]
+              },
+              {
+                "width": 757.7000122070312,
+                "height": 346.5874938964844,
+                "type": "panel",
+                "active": 2,
+                "children": [
+                  "console",
+                  "timeline",
+                  "game-window"
+                ]
+              }
+            ]
+          },
+          {
+            "width": 365.8500061035156,
+            "height": 700.2000122070312,
+            "type": "panel",
+            "active": 0,
+            "children": [
+              "inspector",
+              "cocos-services"
+            ]
+          }
+        ]
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "scene",
+        "console",
+        "timeline",
+        "game-window",
+        "inspector",
+        "cocos-services"
+      ]
+    }
+  },
+  "panels": {},
+  "panelLabelWidth": {}
+}
